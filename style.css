@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    color: #444;
+    background-image: url('https://www.ftskins.com/img/thumbs/fortnite_bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.header_blue {
+    background: #1565c0;
+    padding: 80px 0 20px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.header_text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.unlockBtn:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+}
+
+.unlockBtn {
+    background: #2196f3;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    min-height: 31px;
+    min-width: 70px;
+    padding: 2px 16px;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 280ms ease;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    font: 500 14px/31px Roboto, sans-serif !important;
+    outline: 0 !important;
+    color: white;
+}
+
+.content-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.locker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.locker-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.locker .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
